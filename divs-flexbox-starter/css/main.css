@@ -1,0 +1,101 @@
+/* Google Font Style Links */
+
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,900;1,700&display=swap" rel="stylesheet">
+
+
+
+html
+{
+  height: 100%;
+  width: 100%;
+}
+
+body
+{
+  height: 100%;
+  width: 100%;
+  background-color: #50BFFF;
+  display: flex;
+}
+
+.wrapper
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header footer
+{
+
+	margin: 25px 0px 25px 0px;
+	align-items: center;
+  	width: 100%;
+  	display: flex;
+}
+
+header h1 
+{
+	font-size: 30px;
+	box-shadow: 10px 10px;
+	background-color: #FFF;
+	padding: 15px;
+}
+
+main
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 10px 25px 10px;
+	font-family: 'Source Serif Pro', serif;
+	width: 90%;
+	border-bottom: 2px solid #000;
+}
+
+#div-2 
+{
+    border-left: 2px dotted #000;
+    border-right: 2px dotted #000;
+    padding: 10px 20px;
+    margin: 20px 10px 20px 10px;
+}
+
+#div-1
+{
+	margin: 20px 10px 20px 10px;
+}
+
+#div-3
+{
+	margin: 20px 10px 20px 10px;
+}
+
+.flex-items
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  width: 30%;
+  height: 350px;
+  padding: 25px 0 25px 0;
+}
+
+footer 
+{
+	border-top: 2px solid #000;
+	width: 90%;
+}
+
+footer span
+{
+	font-size: 10px;
+	padding: 50px 50px 50px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
